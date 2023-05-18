@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet"  href="styles/estilo.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <title>portifolio do marola</title>
+</head>
+<body>
+    <main>
+        <nav  class=" navbar navbar-expand-lg   p-3 mb-5 sticky-top custom-navbar">
+            <div class="container-fluid ">
+              <a class="navbar-brand ms-5 texto_primario " href="#">MG</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-5 justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link pe-5 texto_secundario " aria-current="page" href="#seção_apresentação">Home</a>
+                  <a class="nav-link pe-5 texto_secundario " href="#seção_sobre">Sobre</a>
+                  <a class="nav-link pe-5 texto_secundario " href="#seção_projetos">Projetos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section id="seção_apresentação">
+            <div class=" container text-center">
+              <div class="row ">
+                <div class="col-3  mt-5 "><img id="sonic" class=" img-fluid" src="img/image.png" alt=""></div>
+                <div class="col-5  ms-5 mt-5">
+                    <p class="texto_apresentação  pb-2 display-6"></p>
+                </div>
+                </div>
+            </div>
+            <div>
+              <ul class=" d-flex flex-row mt-3 mb-3 justify-content-center">
+                  <li id="link"><button type="button" class="btn btn-outline-info"><a  class=" p-2 " href="https://github.com/Marcos-Farias-Gomes" target="_blank">Github</a></button></li>
+                  <li id="link"><button type="button" class="btn btn-outline-info"><a  class=" p-2 " href="https://www.linkedin.com/in/marcos-gomes-05aa51275/ " target="_blank">Linkedin</a></button></li>
+              </ul>
+             </div>
+               <p class="texto mt-5 text-center">Scroll down</p>
+           </section>
+           <section id="seção_sobre" class=" mt-5 p-5">
+          <div class="container ">
+            <div class="row">
+              <div class="col">
+                <img class=" text-center img-fluid img-perfil p-3  " src="img/1683563332979.jpg" alt="foto de perfil">
+              </div>
+                <div class="col">
+                    <h1 class="titulo_sobre display-6 m-5">Sobre mim</h1>
+                    <p class="texto  mt-3 text-center">Olá! Sou estudante da alura há 7 meses e estou na busca do primeiro emprego. Desde que engressei na plataforma terminei varios cursos em relação ao front-end. Sigo estudando os frameworks e bibliotecas JS tendo em mente que estamos semre em constante aprendizado.</p>
+                </div>
+                    <div class="col mt-5 col-sm-12 col-md-6 col-lg-4">
+                      <p class="texto display-6"> O que eu sei:</p>
+                      <ul class="d-inline-flex p-2 p-3 col-sm-12 col-md-6 col-lg-4">
+                        <li class="align-items-start m-1"><img class="img_logo" src="img/html.png" alt="logo html"></li>
+                        <li class="align-items-start m-1"><img class="img_logo" src="img/css-3.png" alt="logo css"></li>
+                        <li class="align-items-start m-1"><img class="img_logo" src="img/script-java.png" alt="logo Js"></li>
+                        <li class="align-items-start m-1"><img class="img_logo" src="img/bootstrap.png" alt="logo bootstrap"></li>
+                      </ul>
+                    </div>
+                </div>
+                    </div>
+              </div>
+            </div>
+        </section>
+       <section id="seção_projetos" class="d-flex align-items-center justify-content-center">
+        <div class="row ">
+          <article class="card m-3 p-0  cartão shadow-sm" style="width: 18rem;">
+            <img class="img_projetos rounded " src="img/em-breve.png" alt="texto escrito em breve">
+          </article>
+          <article class="card m-3 p-0 cartão shadow-sm" style="width: 18rem;">
+            <img class="img_projetos rounded " src="img/em-breve.png" alt="texto escrito em breve">
+          </article>
+          <article class="card m-3 p-0 cartão shadow-sm" style="width: 18rem;">
+            <img class="img_projetos rounded " src="img/em-breve.png" alt="texto escrito em breve">
+          </article>
+        </div>
+       </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="app/script.js" defer></script>
+    <script src="app/animação.js"></script>
+</body>
+</html>

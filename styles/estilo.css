@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body {
+    height: 100vh;
+    background:linear-gradient( #054D8A, #001227);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.custom-navbar {
+    background-color: #00122770;
+    height: 70px;
+}
+
+.texto_primario {
+    font-family: 'Press Start 2P', cursive;
+    color: #3DD5FA; 
+}
+
+.texto_secundario {
+    font-family: 'Press Start 2P', cursive;
+    color: #3DD5FA;
+}
+
+.texto_secundario:hover {
+    text-decoration: underline;
+}
+
+.texto_primario:hover{
+    text-decoration: underline;
+}
+
+#seção_apresentação {
+    margin: 0px;
+    height: 70vh;
+}
+
+.texto_apresentação{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #3DD5FA;
+}
+
+.texto{
+    font-family: 'Open Sans', sans-serif;
+    color: #3DD5FA;
+}
+
+.titulo_sobre{
+    font-family: 'Open Sans', sans-serif;
+    color: #3DD5FA;
+    font-weight: 400;
+}
+
+#sonic{
+    width: 300px;
+
+}
+
+#link{
+    padding: 10px; 
+}
+
+#seção_sobre {
+    background-color: #010f20;
+    height: 100vh;
+}
+
+#seção_projetos{
+    background:linear-gradient( #01315B, #081b31);
+    padding: 100px;
+    height: 100vh;
+}
+
+.img-perfil{
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.img_logo{
+    max-width: 50px;
+}
+
+.img_projetos{
+    max-width: 18rem;
+    max-height: 12rem;
+}
+
