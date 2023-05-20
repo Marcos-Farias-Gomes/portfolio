@@ -60,6 +60,13 @@ html{
     color: #3DD5FA;
 }
 
+#texto_sobre{
+    font-family: 'Open Sans', sans-serif;
+    color: #3DD5FA;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .titulo_sobre{
     font-family: 'Open Sans', sans-serif;
     color: #3DD5FA;
