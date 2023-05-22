@@ -114,5 +114,9 @@ html{
     #seção_projetos{
       height: auto;
     }
+
+    .texto_secundario{
+        justify-content: end;
+    }
   }
   
