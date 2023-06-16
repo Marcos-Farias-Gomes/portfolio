@@ -47,7 +47,8 @@ html{
 
 #seção_apresentação {
     margin: 0px;
-    height: 90vh;
+    height: 70vh;
+    position: relative;
 }
 
 .texto_apresentação{
@@ -60,10 +61,16 @@ html{
     color: #3DD5FA;
 }
 
+#links{
+    position: absolute;
+    bottom: 80px;
+}
+
+
 #texto_sobre{
     font-family: 'Open Sans', sans-serif;
     color: #3DD5FA;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -85,12 +92,25 @@ html{
 #seção_sobre {
     background-color: #010f20;
     height: 100vh;
+    position: relative;
+}
+
+#titulo_sobre{
+    position: absolute;
+    top: 100px;
+    left: 40%;
 }
 
 #seção_projetos{
     background:linear-gradient( #01315B, #081b31);
     padding: 100px;
     height: 100vh;
+    position: relative;
+}
+
+.texto_projetos{
+    position: absolute;
+    top: 200px;
 }
 
 .img-perfil{
@@ -107,6 +127,8 @@ html{
     max-height: 12rem;
 }
 
+
+
 @media screen and (max-width: 768px) {
     #seção_sobre {
       height: auto;
@@ -114,9 +136,29 @@ html{
     #seção_projetos{
       height: auto;
     }
+    #links{
+        bottom: 2px;
+    }
 
-    .texto_secundario{
-        justify-content: end;
+    #titulo_sobre{
+        top: -34px;
+        left: 54px;
+    }
+    .texto_projetos {
+        top: -12px;
     }
   }
   
+  @media screen and (min-width: 769px) and (max-width: 1366px) {
+    #links{
+        bottom: 2px;
+    }
+
+    #titulo_sobre{
+        top: 10px;
+        left: 38%;
+    }
+    .texto_projetos{
+        top: 50px;
+    }
+  }

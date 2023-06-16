@@ -13,8 +13,8 @@ function efeitoImagem(event) {
     const positionY = event.clientY - eixoy
 
 
-    const rotateX = ((+1)*25*positionY/(sonicHeight/2)).toFixed(2)
-    const rotateY = ((-1)*25*positionX/(sonicWidith/2)).toFixed(2)
+    const rotateX = ((+1)*10*positionY/(sonicHeight/2)).toFixed(2)
+    const rotateY = ((-1)*10*positionX/(sonicWidith/2)).toFixed(2)
 
     sonic.style.transform = `perspective(500px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 
